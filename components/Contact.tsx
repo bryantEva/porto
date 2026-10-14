@@ -23,7 +23,7 @@ export default function Contact() {
         </div>
 
         <div className="flex gap-2">
-          <dt className="w-20 shrink-0 text-paper">Phone</dt>
+          <dt className="w-20 shrink-0 text-paper">WhatsApp</dt>
           <dd>
             <a
               href={`tel:${profile.phone}`}
