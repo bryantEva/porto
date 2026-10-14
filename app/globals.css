@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0f1115;
+    color: #eae7dd;
+  }
+
+  ::selection {
+    background-color: #e8b34a;
+    color: #0f1115;
+  }
+
+  :focus-visible {
+    outline: 2px solid #e8b34a;
+    outline-offset: 3px;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .comment-rule {
+    position: relative;
+  }
+
+  .comment-rule::before {
+    content: "//";
+    color: #8d909a;
+    margin-right: 0.6em;
+    font-family: var(--font-mono);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
