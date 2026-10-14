@@ -10,7 +10,7 @@ export default function Contact() {
         Have something worth building? Send a note.
       </h2>
       <dl className="mt-8 flex flex-col gap-3 font-mono text-lg text-muted">
-        <div className="flex gap-2">
+        <div className="flex gap-4">
           <dt className="w-20 shrink-0 text-paper">Gmail</dt>
           <dd>
             <a
@@ -22,7 +22,7 @@ export default function Contact() {
           </dd>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-4">
           <dt className="w-20 shrink-0 text-paper">WhatsApp</dt>
           <dd>
             <a
@@ -34,7 +34,7 @@ export default function Contact() {
           </dd>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-4">
           <dt className="w-20 shrink-0 text-paper">CV</dt>
           <dd>
             <a

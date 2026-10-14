@@ -14,7 +14,7 @@ export const profile = {
   phone: "+628221007878",
   socials: [
     { label: "GitHub", href: "https://github.com/bryantEva" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/bryant-evant-mulya-a44851325/" }
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/bryant-evant-mulya/" }
   ],
 };
 
