@@ -1,6 +1,7 @@
 import cao from "../Gallery/cao.png"
 import moview from "../Gallery/moview.png"
 import nutrimate from "../Gallery/nutrimate.png"
+import Wuthering_Wares from "../Gallery/Wuthering_Wares.png"
 
 export const profile = {
   name: "Bryant Evant Mulya",
@@ -50,6 +51,14 @@ export const projects = [
     stack: ["Express.js", "Node.js", "React", "TailwindCSS"],
     foto: nutrimate
   },
+  {
+    name: "Wuthering Wares",
+    description:
+      "A fantasy-themed marketplace application for buying and selling fictional items, including swords, armor, potions, and other virtual goods. Built to demonstrate item management, transaction processing, and core marketplace functionalities.",
+    role: "BackEnd Developer",
+    stack: ["Express.js", "Node.js"],
+    foto: Wuthering_Wares
+  }
 ];
 
 export const skillGroups = [
