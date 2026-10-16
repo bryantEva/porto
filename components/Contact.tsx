@@ -38,8 +38,8 @@ export default function Contact() {
           <dt className="w-20 shrink-0 text-paper">CV</dt>
           <dd>
             <a
-              href="/Bryant.pdf"
-              download="Bryant.pdf"
+              href="/Portofolio_Bryant.pdf"
+              download="Portofolio_Bryant.pdf"
               className="transition-opacity hover:text-paper"
             >
               My_CV
