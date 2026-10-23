@@ -42,7 +42,7 @@ export default function Contact() {
               download="CV_Bryant.pdf"
               className="transition-opacity hover:text-paper"
             >
-              Download CV
+              Download_CV
             </a>
           </dd>
         </div>
